@@ -1,0 +1,48 @@
+/* Your existing styles go here */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+.input-section {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.container{
+    padding: 200px 0px;
+}
+.trackingpage{
+    background-image: url(./images/final1.mp4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.videoFinal{
+    width: 99vw;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+}
+.noff{
+    width: 100px;
+}

@@ -1,0 +1,120 @@
+.banner{
+    width: 100%;
+    padding: 120px 0px 0px 0px;
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?cs=srgb&dl=pexels-francesco-ungaro-998641.jpg&fm=jpg');
+    /* background-color: black; */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    overflow: hidden;
+    font-family: 'Pixelify Sans', cursive;
+}
+.foot{
+background-color: rgba(0, 0, 0, 0.722);
+    border: none!important;
+}
+.bug-1{
+    color: rgb(255, 255, 255)!important;
+    font-size: 30px;
+}
+#spacer{
+    margin-top: 1000px;
+}
+
+#title{z-index: -10;}
+
+#moon{position: relative; z-index: 1; transition: 2s;}
+
+/* #sun{position: relative; bottom: 338px; right: -25px; scale: 0.94; z-index: 0;} */
+#sun{ scale: 0.94; z-index: 0;}
+
+
+html:hover #moon{filter: brightness(0.01);}
+
+.banner > h1{
+    font-size: 80px;
+}
+
+.grid-cent{
+    display: flex;
+    justify-content: space-evenly;
+    width: 2000px;
+    flex-wrap: wrap;
+}
+.grid-item{
+    margin: 50px 0px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+.grid-item:hover{
+    transform: scale(1.05);
+}
+.eclipse-des{
+    position: absolute;
+    top: 660px;
+    margin: 0vw 20vw;
+    font-size: 30px;
+}
+.grid1-main > h3{
+    font-size: 70px;
+}
+.grid2-main > h3{
+    font-size: 70px;
+}
+img[src="./images/total solar.webp"]{
+    height: 300px;
+    margin-bottom: 60px;
+    width: 500px;
+    border-radius: 20px;
+}
+img[src="./images/partial solar.webp"]{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+img[src="./images/hybrid solar.jpg"]{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+img[src="./images/annual solar.webp"]{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+img[src="./images/penumbral lunar.jpg"]{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+img[src="./images/partial lunar.jpg"]{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+img[src="./images/total lunar.webp"]{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+.anc-grid1{
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+@media (max-width:780px){
+   .eclipse-des{
+    position: static;
+    font-size: 20px;
+
+} 
+}
